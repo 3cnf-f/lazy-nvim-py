@@ -1,0 +1,12 @@
+#!bin/bash                                                                                               │
+apt-get upgrade -y &&                                                                                    │
+apt install gcc python3 ripgrep xclip -y &&                                                              │
+apt install python3-pip -y &&                                                                            │
+apt install git -y &&                                                                                    │
+apt install luarocks -y &&                                                                               │
+apt install curl -y &&                                                                                   │
+apt install nodejs -y &&                                                                                 │
+apt install npm -y &&                                                                                    │
+apt install python3-neovim -y &&                                                                         │
+apt install python3-debugpy -y &&                                                                        │
+apt install python3-isort -y
